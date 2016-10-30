@@ -3,7 +3,7 @@ int main()
 {
 	int a;
 	void zfc(int x);
-	printf("请输入整数\n");
+	printf("脟毛脢盲脠毛脮没脢媒\n");
 	scanf("%d",&a);
 	zfc(a);
 	return 0;
@@ -11,7 +11,7 @@ int main()
 void zfc(int x)
 {
 	int i;
-	if(x!=0)
+	if(x/10!=0)
 	{
 		i=x/10;
 		zfc(i);
