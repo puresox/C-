@@ -3,7 +3,7 @@ int main()
 {
 	int a;
 	void zfc(int x);
-	printf("ÇëÊäÈëÕûÊý\n");
+	printf("请输入整数\n");
 	scanf("%d",&a);
 	zfc(a);
 	return 0;
@@ -16,5 +16,5 @@ void zfc(int x)
 		i=x/10;
 		zfc(i);
 	}
-	putchar('0'+x%10);
+	putchar(48+x%10);
 }
